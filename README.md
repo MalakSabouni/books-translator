@@ -28,20 +28,20 @@ Leave that window open. In a second PowerShell window, run the full conversion
 with the source EPUB as the only required argument:
 
 ```powershell
-.\.venv\Scripts\python.exe .\translate_epub.py .\Cant-Hurt-Me.epub
+.\.venv\Scripts\python.exe .\translate_epub.py .\Book-To-Translate-to-Arabic.epub
 ```
 
 By default, the script creates:
 
-- `Cant-Hurt-Me.ar.epub` — final Arabic RTL book beside the original
-- `.work\Cant-Hurt-Me\Cant-Hurt-Me.md` — extracted source Markdown
-- `.work\Cant-Hurt-Me\Cant-Hurt-Me.arabic.md` — translated Markdown
-- `.work\Cant-Hurt-Me\translation-cache.json` — resumable translation cache
+- `Book-To-Translate-to-Arabic.ar.epub` — final Arabic RTL book beside the original
+- `.work\Book-To-Translate-to-Arabic\Book-To-Translate-to-Arabic.md` — extracted source Markdown
+- `.work\Book-To-Translate-to-Arabic\Book-To-Translate-to-Arabic.arabic.md` — translated Markdown
+- `.work\Book-To-Translate-to-Arabic\translation-cache.json` — resumable translation cache
 
 Use a system Python executable instead if you do not have the project venv:
 
 ```powershell
-python .\translate_epub.py .\Cant-Hurt-Me.epub
+python .\translate_epub.py .\Book-To-Translate-to-Arabic.epub
 ```
 
 ## Common options

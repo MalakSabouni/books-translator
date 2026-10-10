@@ -8,7 +8,7 @@ converting a complete EPUB using the one-command workflow.
 Open PowerShell and change to the folder containing the scripts:
 
 ```powershell
-Set-Location "C:\Users\ASUS\Documents\books-translator"
+Set-Location "C:\path\to\books-translator"
 ```
 
 The scripts use Python's standard library only. Check that Python is available:
